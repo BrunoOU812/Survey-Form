@@ -1,7 +1,8 @@
 
 body{
-    width:100%;
-    heigth:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     font-family:sans-serif;
   color:#eeeeee;
   background:#212131;
@@ -23,7 +24,9 @@ body{
     border: 1px solid #171727;
   }
   form{
-    margin: 3em 6em
+    width:700px;
+
+    margin: 3em ;
   }
   
   fieldset{
